@@ -1,0 +1,20 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "The classic rock paper scissors game built using html,css and javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "rock paper scissors",
+    "game",
+    "javascript",
+    "nodeJs"
+  ],
+  "author": "krupt3x",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
