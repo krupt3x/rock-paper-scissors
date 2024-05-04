@@ -4,7 +4,7 @@
   "description": "The classic rock paper scissors game built using html,css and javascript.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll --verbose"
   },
   "keywords": [
     "rock paper scissors",
@@ -16,5 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.12"
   }
 }
