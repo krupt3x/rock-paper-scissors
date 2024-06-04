@@ -1,5 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222831;
+  color: #e2dfd0;
+}
+
+.scoreboard {
+  background-color: #35374b;
+  width: 100vw;
+  height: 50vh;
+}
+
+.btn {
+  background-color: #191919;
+  color: #005b41;
+  width: 150px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  border: none;
+  font-weight: bolder;
+  font-size: 2rem;
+  border: 3px solid #040D12;
 }
