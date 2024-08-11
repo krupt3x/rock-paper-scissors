@@ -12,18 +12,26 @@ body {
 .scoreboard {
   background-color: #35374b;
   width: 100vw;
-  height: 50vh;
+  height: 15vh;
+  text-align: center;
+  line-height: 2rem;
 }
 
 .btn {
-  background-color: #191919;
-  color: #005b41;
   width: 150px;
   height: 50px;
   display: block;
-  margin: auto;
-  border: none;
   font-weight: bolder;
   font-size: 2rem;
-  border: 3px solid #040D12;
+}
+
+#rock-btn {
+  background-color: #808080;
+  color: #1a1a40;
+  border: #696969;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: center;
 }
