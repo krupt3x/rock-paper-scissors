@@ -1,6 +1,10 @@
-const rock = document.getElementById("rock-btn");
-const paper = document.getElementById("paper-btn");
-const scissors = document.getElementById("scissors-btn")
+const rock = document.querySelector('#rock-btn');
+const paper = document.querySelector('#paper-btn');
+const scissors = document.querySelector('#scissors-btn')
+
+const scoreboard = document.querySelector('scoreboard')
+const userScore = document.querySelector('#user-score')
+
 
 // randomly generates rock, paper, scissors for the computer. 
 function getComputerChoice() {
@@ -16,20 +20,16 @@ let computerScore = 0;
 
 function playRound(humanChoice) {
     const computerChoice = getComputerChoice();
-    console.log("Human choice:", humanChoice);
-    console.log("Computer choice:", computerChoice);
 
     if (humanChoice === computerChoice) {
-        console.log("It's a tie");
+        return;
     } else if (
         (humanChoice === "rock" && computerChoice === "scissors") ||
         (humanChoice === "paper" && computerChoice === "rock") ||
         (humanChoice === "scissors" && computerChoice === "paper")
     ) {
-        console.log("You win!");
         humanScore++;
     } else {
-        console.log("Computer wins!");
         computerScore++;
     }
 
@@ -60,3 +60,4 @@ paper.addEventListener('click', function () {
 scissors.addEventListener('click', function () {
     playRound('scissors');
 });
+
